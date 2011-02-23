@@ -13,4 +13,4 @@ test: card.py card_tests.py
 	python coverage.py .coverage -x ./card_tests.py
 
 	
-.PHONY: all test coverage
+.PHONY: all 
