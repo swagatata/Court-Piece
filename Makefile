@@ -12,5 +12,5 @@ test: card.py card_tests.py
 	@echo ------------------------------------------
 	python coverage.py .coverage -x ./card_tests.py
 
-	
+#I've removed test and coverage from the source list	
 .PHONY: all 
